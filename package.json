@@ -1,0 +1,25 @@
+{
+  "name": "song",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JARVIS-VOVA/song.git",
+  "author": "JARVIS-VOVA",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  }
+}
